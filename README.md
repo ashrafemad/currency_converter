@@ -15,17 +15,19 @@ Convert Currencies API
 
 2- make sure to place `.env` file in the root directory [there is an env.example file](example.env) to be used as reference
 
-3- activate your venv
+3- create a database and a role with login access and make sure to update the conection url in within `.env` file
 
-4- run `pip install -r requirements.txt` to install dependencies
+4- activate your venv
 
-5- run `python manage.py migrate`
+5- run `pip install -r requirements.txt` to install dependencies
 
-6- run `python manage.py createsuperuser` to create a superuser
+6- run `python manage.py migrate`
 
-7- start celery and celery beat using these commands `celery -A currency_converter worker -l INFO` then `celery -A currency_converter beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler`
+7- run `python manage.py createsuperuser` to create a superuser
 
-8- run `python manage.py runserver` to start the server
+8- start celery and celery beat using these commands `celery -A currency_converter worker -l INFO` then `celery -A currency_converter beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler`
+
+9- run `python manage.py runserver` to start the server
 
 
 # Using the Application
