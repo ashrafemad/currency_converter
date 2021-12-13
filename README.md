@@ -40,3 +40,5 @@ Convert Currencies API
 
 
 Note: You can get your Exchange rates API key from here: https://exchangeratesapi.io/ and for now you can use my key (already added in env.example file)
+
+Note2: Default base currency is EUR and can not be changed because i'm using free plan from exchangeratesapi platform
