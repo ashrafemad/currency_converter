@@ -38,3 +38,5 @@ Convert Currencies API
 
 * you can find API docs in `/api/docs/`
 
+
+Note: You can get your Exchange rates API key from here: https://exchangeratesapi.io/ and for now you can use my key (already added in env.example file)
