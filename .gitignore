@@ -1,0 +1,9 @@
+*.pyc
+/static
+/media
+.idea
+/db.sqlite3
+.coverage
+/htmlcov
+/.pytest_cache
+.env
